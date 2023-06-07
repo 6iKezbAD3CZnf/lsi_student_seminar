@@ -1,0 +1,16 @@
+box position 0 0
+getcell nmos
+box position -14 100
+getcell pmos
+select top cell
+expand
+label vdd
+label gnd
+label A
+label Z
+select top cell
+save...
+writeall force
+extract all
+ext2spice hierarchy on
+ext2spice

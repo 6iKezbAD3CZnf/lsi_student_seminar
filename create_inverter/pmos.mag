@@ -1,0 +1,35 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1686179960
+<< nwell >>
+rect -54 -54 204 270
+<< scpmos >>
+rect 60 0 90 216
+<< pdiff >>
+rect 0 0 60 216
+rect 90 0 150 216
+<< poly >>
+rect 60 216 90 242
+rect 60 -26 90 0
+<< locali >>
+rect 8 75 42 141
+rect 108 75 142 141
+use sram_contact_17  sram_contact_17_0
+timestamp 1514748531
+transform 1 0 0 0 1 75
+box -59 -51 109 117
+use sram_contact_18  sram_contact_18_0
+timestamp 1514748531
+transform 1 0 100 0 1 75
+box -59 -51 109 117
+<< labels >>
+rlabel poly s 75 108 75 108 4 G
+port 1 nsew
+rlabel locali s 25 108 25 108 4 S
+port 2 nsew
+rlabel locali s 125 108 125 108 4 D
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -54 -54 204 270
+<< end >>

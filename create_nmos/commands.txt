@@ -1,0 +1,4 @@
+select top cell
+writeall force
+extract all
+ext2spice
